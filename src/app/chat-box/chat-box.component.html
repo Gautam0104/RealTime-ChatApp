@@ -1,0 +1,27 @@
+<nav>
+    <img class="logo" src="assets/chat.png" alt="">
+</nav>
+<div class="chat-messages">
+    <div class="chat-messages-show-container">
+      <ul class="chat-messages-show-list" id="message-list">
+      </ul>
+    </div>
+    <div class="chat-messages-create-container"> 
+      <input class="chat-messages-create-input" type="text" [(ngModel)]="message">
+      <button  class="chat-messages-create-button" (click)="SendMessage()"> Send </button>
+    </div>
+ </div>
+
+ <!-- <nav>
+    <img class="logo" src="assets/chat.png" alt="">
+</nav>
+<div class="container">
+    <div class="massege right" id="message-list">Hey how are you</div>
+    <div class="massege left" id="message-list">I am fine</div>
+</div>
+<div class="send">
+    <form action="#" id="send-container">
+        <input type="text" id="massegeInp" [(ngModel)]="message">
+        <button type="submit" class="btn" (click)="SendMessage()" >send</button>
+    </form>
+</div> -->
